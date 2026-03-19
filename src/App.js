@@ -13,10 +13,6 @@ function App() {
     setIsAuthenticated(true);
   };
 
-  const handleLogout = () => {
-    setIsAuthenticated(false);
-  };
-
   return (
     <Router>
       <div className="App">

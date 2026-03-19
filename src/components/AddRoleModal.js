@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { FiX } from 'react-icons/fi';
 
 const AddRoleModal = ({ isOpen, onClose, onSave, editingRoll }) => {
   const [formData, setFormData] = useState({

@@ -11,7 +11,6 @@ const Settings = () => {
   const [newSubCategoryRequired, setNewSubCategoryRequired] = useState(false);
   const [draggedField, setDraggedField] = useState(null);
   const [workerRolls, setWorkerRolls] = useState([]);
-  const [newRoll, setNewRoll] = useState('');
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [draggedRoll, setDraggedRoll] = useState(null);
   const [editingRoll, setEditingRoll] = useState(null);

@@ -28,12 +28,6 @@ const Sidebar = () => {
     { icon: <FiSettings />, label: 'Settings', path: '/settings' },
   ];
 
-  const getActiveItem = () => {
-    const currentPath = location.pathname;
-    const activeItem = menuItems.find(item => item.path === currentPath);
-    return activeItem ? activeItem.label : 'Dashboard';
-  };
-
   return (
     <>
       <button className="sidebar-toggle" onClick={toggleSidebar}>
