@@ -1,0 +1,101 @@
+/* CSS Variables for NaariArt Project */
+/* Updated with project color palette */
+
+:root {
+  /* Primary Colors - From Project Palette */
+  --primary-color: #E58C6A;
+  --primary-gradient-start: #E58C6A;
+  --primary-gradient-end: #F2B79C;
+  --primary-gradient: linear-gradient(90deg, var(--primary-gradient-start) 0%, var(--primary-gradient-end) 100%);
+  --primary-color-light: #FBEBE5;
+
+  /* Secondary Gradient */
+  --secondary-gradient-start: #D97B5C;
+  --secondary-gradient-end: #EFA98F;
+  --secondary-gradient: linear-gradient(270deg, var(--secondary-gradient-start) 0%, var(--secondary-gradient-end) 100%);
+  
+  /* Sidebar Theme Colors */
+  --sidebar-bg: #F8EFEF;
+  --sidebar-text: #222222;
+  --sidebar-text-muted: #5D5D5D;
+  --sidebar-border: #DEDEDE;
+  
+  /* Active/Hover States */
+  --sidebar-active-bg: var(--primary-gradient);
+  --sidebar-hover-bg: #F0E0E0;
+  --sidebar-active-text: #222222;
+  
+  /* Logo/Brand Colors */
+  --logo-text: #222222;
+  --logo-bg: #DEDEDE;
+  
+  /* Logout Button */
+  --logout-text: #D65A5A;
+  --logout-hover-bg: #F5D6D6;
+  
+  /* Icons */
+  --icon-default: #5D5D5D;
+  --icon-active: #222222;
+  
+  /* User Avatar */
+  --avatar-bg: var(--primary-color);
+  --avatar-text: #FFFFFF;
+  
+  /* Status Colors - From Project Palette */
+  --success-color: #4CAF50;
+  --warning-color: #FFA500;
+  --error-color: #FF0000;
+  --info-color: #3b82f6;
+  --alert-color: #FF0000;
+  --warn-color: #FFA500;
+  
+  /* Neutral Colors - From Project Palette */
+  --black-color: #000000;
+  --gray-color: #6B6B6B;
+  --gray-light: #F2F2F2;
+  --light-gray-color: #D3D3D3;
+  --light-orange-color: #F5D5C6;
+  --white-color: #FFFFFF;
+  
+  /* Spacing */
+  --sidebar-width: 280px;
+  --sidebar-padding: 20px;
+  --nav-item-height: 48px;
+  --border-radius: 8px;
+  --border-radius-pill: 50px;
+  
+  /* Transitions */
+  --transition-speed: 0.3s;
+  --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Shadows */
+  --sidebar-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+  /* Typography */
+  --font-family: 'Inter', sans-serif;
+  --font-family-roboto: 'Roboto', sans-serif;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 24px;
+  
+  /* Background Colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #F8EFEF;
+  
+  /* Text Colors */
+  --text-primary: #222222;
+  --text-secondary: #5D5D5D;
+  --text-muted: #666666;
+  
+  /* Border Colors */
+  --border-color: #DEDEDE;
+  --border-light: #F0E0E0;
+  
+  /* Additional UI Colors */
+  --hover-bg: rgba(234, 157, 129, 0.1);
+  --active-bg: rgba(234, 157, 129, 0.2);
+}
